@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Quick Reference Sheet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Git Quick Reference Sheet</h1>
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><code>git init</code></td>
+      <td>Initialize a new Git repository</td>
+    </tr>
+    <tr>
+      <td><code>git remote add origin &lt;repo_url&gt;</code></td>
+      <td>Connect local repo to a remote repository</td>
+    </tr>
+    <tr>
+      <td><code>git branch -r</code></td>
+      <td>List remote branches</td>
+    </tr>
+    <tr>
+      <td><code>git checkout -b main</code></td>
+      <td>Create and switch to the 'main' branch</td>
+    </tr>
+    <tr>
+      <td><code>git add .</code></td>
+      <td>Stage all changes</td>
+    </tr>
+    <tr>
+      <td><code>git commit -m "Initial commit"</code></td>
+      <td>Commit staged changes with a message</td>
+    </tr>
+    <tr>
+      <td><code>git push -u origin main</code></td>
+      <td>Push code to remote and set upstream</td>
+    </tr>
+    <tr>
+      <td><code>git branch -vv</code></td>
+      <td>Show verbose branch information</td>
+    </tr>
+  </table>
+  <p><strong>Upstream branch:</strong> The remote branch that your local branch is tracking.</p>
+  <p><strong>Verbose (-vv):</strong> Provides detailed branch tracking information.</p>
+</body>
+
+</html>
